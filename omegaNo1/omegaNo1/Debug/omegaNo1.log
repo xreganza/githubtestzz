@@ -1,17 +1,322 @@
-﻿  mainGame.cpp
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\documents\visual studio 2017\projects\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  omegaNo1.vcxproj -> c:\users\administrator\documents\visual studio 2017\Projects\omegaNo1\Debug\omegaNo1.exe
-  omegaNo1.vcxproj -> c:\users\administrator\documents\visual studio 2017\Projects\omegaNo1\Debug\omegaNo1.pdb (Partial PDB)
+﻿  txtData.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(30): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 'wcscat' 선언을 참조하십시오.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(50): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(254): note: 'wcstok' 선언을 참조하십시오.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(52): warning C4996: 'wcstok': wcstok has been changed to conform with the ISO C standard, adding an extra context parameter. To use the legacy Microsoft wcstok, define _CRT_NON_CONFORMING_WCSTOK.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(254): note: 'wcstok' 선언을 참조하십시오.
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(47): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  timer.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\timer.cpp(13): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\timer.cpp(19): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  timeManager.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  stdafx.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  soundManager.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  omegaNo1.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\omegano1.cpp(63): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\omegano1.cpp(64): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\omegano1.cpp(65): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\omegano1.cpp(66): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\omegano1.cpp(69): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mainGame.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  keyManager.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  imageManager.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  image.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(12): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(56): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(61): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(62): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(106): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(110): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(118): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(120): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(122): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(127): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(134): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(136): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(138): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(143): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(156): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(160): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(168): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(170): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(172): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(177): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(184): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(186): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(188): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(194): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(204): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(208): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(216): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(218): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(220): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(225): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(232): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(234): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(236): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(242): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(254): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(258): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(266): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(268): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(270): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(275): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(282): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(284): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(286): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(292): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(298): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(299): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(302): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(306): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(309): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(310): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(312): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(313): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(314): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(317): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(318): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(321): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(322): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(324): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(325): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(326): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(332): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(333): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(336): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(340): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(343): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(344): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(346): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(347): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(348): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(351): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(352): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(355): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(356): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(358): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(359): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(360): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(374): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(374): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(378): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.cpp(378): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  gameNode.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\gamenode.cpp(54): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\gamenode.cpp(55): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\gamenode.cpp(50): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+d:\github\githubtestzz\omegano1\omegano1\gamenode.cpp(49): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  effectManager.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\effectmanager.cpp(137): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  effect.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  animation.cpp
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(4): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+d:\github\githubtestzz\omegano1\omegano1\rectmakefunction.h(9): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\mathfunction.h(24): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(101): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(102): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(117): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(118): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(119): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(120): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(121): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\image.h(122): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\animation.cpp(9): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\animation.cpp(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\githubtestzz\omegano1\omegano1\animation.cpp(82): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+d:\github\githubtestzz\omegano1\omegano1\txtdata.cpp(32): warning C4172: 지역 변수 또는 임시: str의 주소를 반환하고 있습니다.
+  LINK : D:\github\githubtestzz\omegaNo1\Debug\omegaNo1.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  omegaNo1.vcxproj -> D:\github\githubtestzz\omegaNo1\Debug\omegaNo1.exe
+  omegaNo1.vcxproj -> D:\github\githubtestzz\omegaNo1\Debug\omegaNo1.pdb (Partial PDB)

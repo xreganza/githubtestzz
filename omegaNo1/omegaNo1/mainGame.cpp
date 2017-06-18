@@ -19,6 +19,8 @@ void mainGame::update()
 	gameNode::update();
 	// don`t write korean T.T
 	
+	// æ»≥Á«œººø‰~
+
 }
 void mainGame::render()
 {
