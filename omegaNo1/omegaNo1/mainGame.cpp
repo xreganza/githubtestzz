@@ -17,7 +17,7 @@ void mainGame::release()
 void mainGame::update()
 {
 	gameNode::update();
-
+	// don`t write korean T.T
 	
 }
 void mainGame::render()
