@@ -21,6 +21,8 @@ void mainGame::update()
 	
 	// æ»≥Á«œººø‰~
 
+	// hello my name is heenam
+
 }
 void mainGame::render()
 {
