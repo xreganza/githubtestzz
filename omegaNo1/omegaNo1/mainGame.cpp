@@ -23,6 +23,9 @@ void mainGame::update()
 
 	// hello my name is heenam
 
+	//0sun babo
+
+
 }
 void mainGame::render()
 {
