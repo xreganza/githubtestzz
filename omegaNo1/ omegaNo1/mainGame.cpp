@@ -19,12 +19,14 @@ void mainGame::update()
 	gameNode::update();
 	// don`t write korean T.T
 	
-	// �ȳ��ϼ���~
+	// ¾È³çÇÏ¼¼¿ä~
 
 	// hello my name is heenam
 
 	//0sun babo
+	//dddd/d////
 
+	
 
 }
 void mainGame::render()
